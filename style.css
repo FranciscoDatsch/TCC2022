@@ -1,8 +1,30 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 10rem;
+}
+
 .titulo{
     color: black;
     font-size: 30px;
 }
+
 .cabecalho{
     color: #494b4a;
+    font-size: 20px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bnt {
+    height: 50px;
+    width: 200px;
+
     font-size: 20px;
 }
